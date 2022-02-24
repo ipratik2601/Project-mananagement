@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <h1>Employee Details</h1>
+    <ul>
+        {% for i in employe %}
+        <li>Employee name :{{i.employe_name}}</li>
+        <li>Employee email :{{i.employe_email}}</li>
+        <li>Employee contact:{{i.employe_contact}}</li>
+        <li>Employee age:{{i.employe_age}}</li>
+        
+        {% endfor %}
+    </ul>
+</body>
+</html>

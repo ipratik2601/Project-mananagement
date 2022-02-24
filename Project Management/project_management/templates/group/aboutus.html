@@ -1,0 +1,15 @@
+{% extends "./base.html" %}
+{% block content  %}
+{% if isActive  %}
+    <h1>isActive is True </h1>   
+    
+{% else %}
+    <h2>isActive is False </h2>   
+{% endif %}
+{% if age > 18 %}
+<h2>user is eligibal </h2>
+
+{% else %}
+<h1>user is not eligibal</h1>
+{% endif %}
+{% endblock  %}

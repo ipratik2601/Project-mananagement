@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    <h1>HR Details</h1>
+    <ul>
+    {% for i in hrlist %}
+        <li>Name :{{i.name}}</li>
+        <li>Email :{{i.email}}</li>
+        <li>Contact :{{i.contact}}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

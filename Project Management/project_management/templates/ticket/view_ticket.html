@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <a href="http://localhost:8000/ticket/4/delete">DELETE</a>
+<h1>Views of Ticket</h1>
+    <ul>
+    {% for i in ticketlist %}
+        <li>Ticket Title :{{i.ticket_title}}</li>
+        <li>Ticket Description : {{i.ticket_description}}</li>
+       <br>
+    {% endfor %}
+    </ul>
+</body>
+</html>

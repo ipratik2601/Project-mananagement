@@ -1,0 +1,14 @@
+<h1>STUDENT</h1>
+  <ul>
+{% for i in students  %}
+
+    <li>student_name:   {{i.student_name}}   </li>
+    <li>student_email:   {{i.student_email}}  </li>
+    <li>student_password: {{i.student_password}}    </li>
+    <li>student_phone:  {{i.student_phone}}   </li>
+    <li>student_address:  {{i.student_address}} </li>
+    <li>student_dob: {{i.student_dob}} </li>
+    <li>role_id:   {{i.role_id_id}}    </li>
+<br>
+{% endfor %}
+</ul>
